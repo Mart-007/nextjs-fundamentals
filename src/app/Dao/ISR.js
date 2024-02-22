@@ -8,3 +8,13 @@ export const fetchData  = async() => {
     const data = await res.json()
     return data
 }   
+
+export const fetchSpeakers = async () => {
+    const response = await fetch(
+      "https://raw.githubusercontent.com/adhithiravi/Consuming-GraphqL-Apollo/master/api/data/speakers.json", 
+      { next: { revalidate: 20 } }
+    );
+  
+    const data = await response.json();
+    return data;
+  }

@@ -6,6 +6,8 @@ export const fetchData  = async () => {
     return data
 }
 
+export let speakerJson = {}
+
 // Static data fetching
 export const fetchSpeakers = async () => {
     const response = await fetch(
@@ -13,5 +15,6 @@ export const fetchSpeakers = async () => {
     );
   
     const data = await response.json();
+    speakerJson = data
     return data;
   }

@@ -31,5 +31,26 @@
     font-size: 26px;
     font-weight: 800;
     color: #bdfef2;
-    background: #243b72;
+  }
+
+  .titleBio {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #b4b7b6;
+  }
+
+  .descText {
+    font-size: 14px;
+    color: #fff;
+    line-height: 24px;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+  
+  .infoText {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    color: #fff;
   }
