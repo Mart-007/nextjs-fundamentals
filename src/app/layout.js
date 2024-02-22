@@ -11,7 +11,6 @@ const openSans = Open_Sans({
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={openSans.className}>
-      <head />
       <header className={style.content}>
         <h1>This is home page.</h1>
         <section className={style.section}>

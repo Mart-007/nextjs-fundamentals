@@ -4,3 +4,19 @@
     font-size: 25px;
     color: #243b72;
 }
+
+.infoContainer {
+    display: block;
+    box-sizing: inherit;
+    margin-top: 1rem;
+    background-color: #262630;
+    padding: 10px;
+  }
+  
+  .titleText {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 800;
+    color: #bdfef2;
+    background: #243b72;
+  }
