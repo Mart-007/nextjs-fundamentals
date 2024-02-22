@@ -28,6 +28,17 @@ body {
     
 }
 
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px dotted #313030;
+  background: #313030;
+  color: #bbb9b9;
+  padding: 20px;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

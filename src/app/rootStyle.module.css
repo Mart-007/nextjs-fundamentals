@@ -1,0 +1,19 @@
+
+
+.section {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.links {
+    color: #bbb9b9;
+}
+
+.childHeader {
+    width: 100%;
+    padding: 50px;
+    font-size: 25px;
+    color: #243b72;
+}
